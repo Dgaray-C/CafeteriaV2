@@ -1,0 +1,108 @@
+body {
+    font-family: 'Poppins', sans-serif; 
+    background-color: #f8f3eb; 
+    margin: 0;
+    padding: 0;
+}
+
+.titulo {
+    font-size: 48px;
+    color: #6d4c41;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.div-productos {
+    margin-top: 32px;
+    padding: 0 16px;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+.card-title {
+    font-size: 20px;
+    color: #6d4c41; 
+}
+
+.card-text {
+    font-size: 16px;
+    color: #5f4b47;
+}
+
+.btn-primary {
+    background-color: #6d4c41;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #5a372e;
+}
+
+.card-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.botonComprar {
+    font-family: 'Poppins', sans-serif; 
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #6d4c41; 
+    border: none;
+    border-radius: 5px; 
+    transition: all 0.3s ease;  
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.botonComprar:hover {
+    background-color: #5a372e; 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); 
+    transform: scale(1.05); 
+}
+
+.botonCategoria{
+    font-family: 'Poppins', sans-serif; 
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #6d4c41; 
+    border: none;
+    border-radius: 5px; 
+    transition: all 0.3s ease;  
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.botonCategoria:hover {
+    background-color: #5a372e; 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); 
+    transform: scale(1.05); 
+}
+
+.pedidos {
+    width: 350px !important; 
+    min-width: 350px !important; 
+    max-width: 350px !important; 
+    background-color: #f8f3eb; 
+    padding: 20px;
+    border-radius: 8px; 
+    font-size: 16px; 
+    color: #5f4b47; 
+}
+
+.microtexto {
+    font-size: 10px; 
+    color: #6c757d; 
+    font-style: italic; 
+    margin-top: 5px; 
+    text-align: center; 
+}
